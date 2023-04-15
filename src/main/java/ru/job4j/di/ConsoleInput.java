@@ -1,5 +1,7 @@
 package ru.job4j.di;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Scanner;
 
 /**
@@ -11,6 +13,7 @@ import java.util.Scanner;
  * @author Dmitry Stepanov, user Dmitry
  * @since 14.04.2023
  */
+@Component
 public class ConsoleInput {
     private final Scanner scanner = new Scanner(System.in);
 

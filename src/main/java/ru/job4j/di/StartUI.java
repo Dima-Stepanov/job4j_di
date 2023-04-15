@@ -1,5 +1,7 @@
 package ru.job4j.di;
 
+import org.springframework.stereotype.Component;
+
 /**
  * 3. Мидл
  * 3.4. SpringТема
@@ -9,6 +11,7 @@ package ru.job4j.di;
  * @author Dmitry Stepanov, user Dmitry
  * @since 14.04.2023
  */
+@Component
 public class StartUI {
     private final Store store;
     private final ConsoleInput consoleInput;
